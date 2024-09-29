@@ -15,7 +15,7 @@ Here are the steps to contribute to this project:
 2. Clone the Repository: Clone your forked repository to your local machine using the following command:
 
    ```bash
-   git clone https://github.com/nixrajput/portfolio-nextjs.git
+   git clone https://github.com/lucatosc/portfolio-nextjs.git
    ```
 
 3. Create a Branch: Create a new branch for your contributions. Make sure to choose a descriptive branch name that reflects the changes you intend to make.
@@ -56,7 +56,7 @@ Here are the steps to contribute to this project:
 
 ## Reporting Issues
 
-If you encounter any issues or bugs while using the Portfolio Website, please report them on the [Issues](https://github.com/nixrajput/portfolio-nextjs/issues) page of the repository. Provide as much detail as possible to help us understand and address the problem.
+If you encounter any issues or bugs while using the Portfolio Website, please report them on the [Issues](https://github.com/lucatosc/portfolio-nextjs/issues) page of the repository. Provide as much detail as possible to help us understand and address the problem.
 
 ## Thank You
 

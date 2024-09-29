@@ -1,30 +1,30 @@
 class Strings {
   static telegram = "Telegram";
-  static telegramLink = "https://telegram.me/nixrajput";
-  static telegramUsername = "nixrajput";
+  static telegramLink = "https://telegram.me/lucatosc";
+  static telegramUsername = "lucatosc";
 
   static github = "GitHub";
-  static githubLink = "https://www.github.com/nixrajput";
-  static githubUsername = "nixrajput";
+  static githubLink = "https://www.github.com/lucatosc";
+  static githubUsername = "lucatosc";
 
   static linkedIn = "LinkedIn";
-  static linkedInLink = "https://www.linkedin.com/in/nixrajput";
-  static linkedInUsername = "nixrajput";
+  static linkedInLink = "https://www.linkedin.com/in/lucatosc";
+  static linkedInUsername = "lucatosc";
 
   static instagram = "Instagram";
-  static instagramLink = "https://www.instagram.com/nixrajput";
-  static instagramUsername = "nixrajput";
+  static instagramLink = "https://www.instagram.com/lucatosc";
+  static instagramUsername = "lucatosc";
 
   static twitter = "Twitter";
-  static twitterLink = "https://www.twitter.com/nixrajput07";
-  static twitterUsername = "nixrajput07";
+  static twitterLink = "https://www.twitter.com/lucatosc07";
+  static twitterUsername = "lucatosc07";
 
   static email = "Email";
   static primaryEmailLink = "mailto:nkr.nikhil.nkr@gmail.com";
   static primaryEmail = "nkr.nikhil.nkr@gmail.com";
 
-  static fullName = "Nikhil Rajput";
-  static shortName = "nixrajput";
+  static fullName = "Luca Toscano";
+  static shortName = "lucatosc";
 }
 
 export default Strings;

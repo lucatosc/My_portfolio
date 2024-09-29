@@ -24,12 +24,12 @@ const HomeSection1 = ({ id }: Readonly<{ id: string }>) => {
               Hi there, I am
             </p>
             <FlipWords
-              words={["Nikhil Rajput", "@nixrajput"]}
+              words={["Luca Toscano", "@lucatosc"]}
               className="text-2xl/normal sm:text-3xl/normal md:text-5xl/normal lg:text-6xl/normal xl:text-7xl/normal dark:text-[var(--primaryColor)] text-[var(--primaryColor)] font-bold text-center"
             />
           </div>
           <p className="text-sm/normal md:text-base/normal dark:text-[var(--textColorLight)] text-[var(--textColorLight)]">
-            Software Engineer & Full Stack Developer
+          Frontend | Javascript, React, Next, GEN AI, RAG AI, Open AI
           </p>
 
           <div className="gap-4 mt-12 lg:mt-16 flex flex-col md:flex-row">
@@ -42,7 +42,7 @@ const HomeSection1 = ({ id }: Readonly<{ id: string }>) => {
           <p className="text-base/6 font-medium">Follow me here</p>
 
           <Row classNames="mt-2 gap-2">
-            {socialLinks.slice(0, 5).map((link, index) => {
+            {socialLinks.slice(0, 1).map((link, index) => {
               return (
                 <Link
                   key={`social-link-${index}`}
