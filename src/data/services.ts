@@ -3,7 +3,7 @@ import { IServiceItem } from "@/types";
 const services: IServiceItem[] = [
   {
     id: 1,
-    title: "Mobile App Development",
+    title: "AI Development",
     icons: [
       "/skills/socket-io.png",
       "/skills/dart.svg",
@@ -12,9 +12,9 @@ const services: IServiceItem[] = [
       "/skills/firebase.svg",
     ],
     shortDescription:
-      "I create engaging mobile applications for your audience.",
+      "I create engaging chatbot, image generator  using GEN AI and RAG AI, etc.",
     description:
-      "I create captivating mobile apps from concept to deployment for iOS and Android. Using cutting-edge technologies, I ensure seamless performance, intuitive interfaces, and robust functionality that align with your business goals. Enjoy a flawless user experience and outstanding results.",
+      "I create intelligent, innovative AI solutions designed to elevate your business potential. From chatbots to data analytics and machine learning applications, I offer customized services that leverage the latest advancements in artificial intelligence. My focus is on user-centric designs and seamless integration, ensuring that your AI implementations are not only powerful but also easy to use. Transform your operations and enhance decision-making with state-of-the-art AI technology tailored to fit your unique needs.",
   },
   {
     id: 2,
@@ -43,49 +43,6 @@ const services: IServiceItem[] = [
     shortDescription: "I create robust and scalable backend infrastructures.",
     description:
       "I enhance digital applications with robust, scalable backend infrastructures. I develop efficient database structures, APIs, and configure servers for optimal performance, security, and scalability, ensuring your applications handle high traffic and complex data management seamlessly. Rely on strong backend solutions.",
-  },
-  {
-    id: 4,
-    title: "Product Strategy",
-    icons: [
-      "/skills/git.svg",
-      "/images/collaboration.png",
-      "/images/logical-thinking.png",
-      "/images/analytical-skills.png",
-      "/skills/ubuntu.png",
-    ],
-    shortDescription:
-      "I define goals, target audiences, and roadmaps for success.",
-    description:
-      "I collaborate to define clear goals, target audiences, and a success roadmap. My expertise in product ideation and market analysis ensures your product meets user needs and aligns with your business strategy for long-term growth and full potential realization. Drive your product's success with strategic planning.",
-  },
-  {
-    id: 5,
-    title: "DevOps",
-    icons: [
-      "/skills/docker.svg",
-      "/skills/kubernetes.svg",
-      "/skills/aws.svg",
-      "/skills/jenkins.svg",
-      "/skills/terraform.svg",
-    ],
-    shortDescription: "I streamline development and operations processes.",
-    description:
-      "I streamline development and operations processes through effective DevOps practices. I implement continuous integration and deployment pipelines, manage cloud infrastructure, and use containerization to ensure efficient, reliable, and scalable software delivery. Improve your workflow with DevOps solutions.",
-  },
-  {
-    id: 6,
-    title: "Database Management",
-    icons: [
-      "/skills/mysql.svg",
-      "/skills/postgresql.svg",
-      "/skills/mongodb.svg",
-      "/skills/redis.svg",
-      "/skills/sqlite.svg",
-    ],
-    shortDescription: "I manage and optimize your database systems.",
-    description:
-      "I manage and optimize your database systems for performance, reliability, and scalability. With expertise in SQL and NoSQL databases, I design schemas, write complex queries, and implement best practices for data integrity and security. Ensure your data is managed effectively and efficiently.",
   },
 ];
 

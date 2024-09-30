@@ -15,9 +15,9 @@ const skills: ISkillListItem[] = [
         icon: "/skills/typescript.svg",
       },
       {
-        title: "Dart",
+        title: "python",
         level: SkillLevel.Expert,
-        icon: "/skills/dart.svg",
+        icon: "/skills/python.svg",
       },
     ],
   },
@@ -73,27 +73,7 @@ const skills: ISkillListItem[] = [
         title: "Socket.io",
         level: SkillLevel.Intermediate,
         icon: "/skills/socket-io.png",
-      },
-      // {
-      //   title: "Nest.js",
-      //   level: SkillLevel.Begginer,
-      //   icon: "/skills/nestjs.svg",
-      // },
-    ],
-  },
-  {
-    title: "Mobile App Development",
-    items: [
-      {
-        title: "Flutter",
-        level: SkillLevel.Expert,
-        icon: "/skills/flutter.svg",
-      },
-      {
-        title: "GetX",
-        level: SkillLevel.Expert,
-        icon: "/skills/getx.png",
-      },
+      }
     ],
   },
   {
@@ -117,62 +97,22 @@ const skills: ISkillListItem[] = [
     ],
   },
   {
-    title: "DevOps/VCS",
+    title: "AI Management",
     items: [
       {
-        title: "Docker",
+        title: "Generative AI",
+        level: SkillLevel.Intermediate,
+        icon: "",
+      },
+      {
+        title: "RAG AI",
+        level: SkillLevel.Intermediate,
+        icon: "",
+      },
+      {
+        title: "ChatGPT",
         level: SkillLevel.Begginer,
-        icon: "/skills/docker.png",
-      },
-      {
-        title: "AWS",
-        level: SkillLevel.Intermediate,
-        icon: "/skills/aws.svg",
-      },
-      {
-        title: "Git",
-        level: SkillLevel.Expert,
-        icon: "/skills/git.svg",
-      },
-      {
-        title: "GitHub",
-        level: SkillLevel.Expert,
-        icon: "/skills/github.svg",
-      },
-    ],
-  },
-  {
-    title: "Miscellaneous",
-    items: [
-      {
-        title: "Firebase",
-        level: SkillLevel.Intermediate,
-        icon: "/skills/firebase.svg",
-      },
-      {
-        title: "Ubuntu",
-        level: SkillLevel.Intermediate,
-        icon: "/skills/ubuntu.png",
-      },
-    ],
-  },
-  {
-    title: "Nontechnical Skills",
-    items: [
-      {
-        title: "Problem Solving",
-        level: SkillLevel.Expert,
-        icon: "/images/logical-thinking.png",
-      },
-      {
-        title: "Collaboration",
-        level: SkillLevel.Expert,
-        icon: "/images/collaboration.png",
-      },
-      {
-        title: "Analytical Skills",
-        level: SkillLevel.Expert,
-        icon: "/images/analytical-skills.png",
+        icon: "",
       },
     ],
   },
