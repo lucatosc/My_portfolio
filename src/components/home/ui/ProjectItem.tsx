@@ -11,6 +11,7 @@ import Link from "next/link";
 import Column from "@/components/core/Column";
 import Row from "@/components/core/Row";
 import CardBox from "@/components/core/CardBox";
+import ScreenshotGallery from "@/components/projects/components/ScreenshotGallery";
 
 const ProjectItem = ({ project }: { project: IProjectItem }) => {
   const router = useRouter();
@@ -23,11 +24,11 @@ const ProjectItem = ({ project }: { project: IProjectItem }) => {
 
   return (
     <CardBox
-      classNames="min-w-[calc(100%-2rem)] sm:min-w-[25rem] md:min-w-[28rem] aspect-[3/5] max-h-[30rem] p-4 gap-8 items-center justify-between bg-[var(--textColor10)] group slide_in"
+      classNames="min-w-[calc(100%-2rem)] sm:min-w-[25rem] md:min-w-[28rem] aspect-[3/5] max-h-[35rem] p-4 gap-8 items-center justify-between bg-[var(--textColor10)] group slide_in"
       // onClick={() => _handleNavigateToPage(project.id)}
     >
       <Column classNames="w-full items-center justify-start">
-        <Row classNames="w-[2.5rem] md:w-[3rem] aspect-square items-center justify-center">
+        {/* <Row classNames="w-[2.5rem] md:w-[3rem] aspect-square items-center justify-center">
           <Image
             src={project.icon}
             alt={`project-${project.title}`}
@@ -39,8 +40,7 @@ const ProjectItem = ({ project }: { project: IProjectItem }) => {
             blurDataURL={project.icon}
             className="w-full h-full object-cover aspect-square"
           />
-        </Row>
-
+        </Row> */}
         <p className="text-lg/6 font-semibold mt-4">{project.title}</p>
 
         <div
@@ -85,6 +85,8 @@ const ProjectItem = ({ project }: { project: IProjectItem }) => {
           ) : null}
         </Row>
       </Column>
+
+      <ScreenshotGallery imageList={project.sceenshots === undefined ? [""] : project.sceenshots} />
 
       <Column classNames="w-full items-center">
         <p className="text-center text-base/6">
