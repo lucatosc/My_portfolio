@@ -5,6 +5,16 @@ const skills: ISkillListItem[] = [
     title: "Programming Languages",
     items: [
       {
+        title: "HTML",
+        level: SkillLevel.Expert,
+        icon: "/skills/html.svg",
+      },
+      {
+        title: "CSS",
+        level: SkillLevel.Intermediate,
+        icon: "/skills/css.svg",
+      },
+      {
         title: "JavaScript",
         level: SkillLevel.Expert,
         icon: "/skills/javascript.svg",
@@ -14,6 +24,12 @@ const skills: ISkillListItem[] = [
         level: SkillLevel.Intermediate,
         icon: "/skills/typescript.svg",
       },
+      {
+        title: "Python",
+        level: SkillLevel.Intermediate,
+        icon: "/skills/python-5.svg",
+      },
+
     ],
   },
   {
@@ -30,24 +46,14 @@ const skills: ISkillListItem[] = [
         icon: "/skills/react.svg",
       },
       {
-        title: "HTML",
+        title: "VUE",
         level: SkillLevel.Expert,
-        icon: "/skills/html.svg",
+        icon: "/skills/vue-9.svg",
       },
       {
-        title: "CSS",
+        title: "ANGULARE",
         level: SkillLevel.Intermediate,
-        icon: "/skills/css.svg",
-      },
-      {
-        title: "SASS",
-        level: SkillLevel.Intermediate,
-        icon: "/skills/sass.svg",
-      },
-      {
-        title: "Redux Toolkit",
-        level: SkillLevel.Expert,
-        icon: "/skills/redux.svg",
+        icon: "/skills/angular.svg",
       },
     ],
   },
@@ -65,9 +71,14 @@ const skills: ISkillListItem[] = [
         icon: "/skills/express.svg",
       },
       {
-        title: "Socket.io",
+        title: "Laravel",
         level: SkillLevel.Intermediate,
-        icon: "/skills/socket-io.png",
+        icon: "/skills/laravel-2.svg",
+      },
+      {
+        title: "Django",
+        level: SkillLevel.Intermediate,
+        icon: "/skills/django.svg",
       }
     ],
   },

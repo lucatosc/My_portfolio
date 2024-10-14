@@ -5,11 +5,11 @@ const services: IServiceItem[] = [
     id: 1,
     title: "AI Development",
     icons: [
-      "skills/jenkins.svg",
-      "skills/jenkins.svg",
-      "skills/jenkins.svg",
-      "skills/jenkins.svg",
-      "skills/jenkins.svg",
+      "skills/ai(6).svg",
+      "skills/jupiter-1.svg",
+      "skills/python-3.svg",
+      "skills/flask.svg",
+      "skills/ai(7).svg",
     ],
     shortDescription:
       "I create engaging chatbot, image generator  using GEN AI and RAG AI, etc.",
@@ -20,11 +20,11 @@ const services: IServiceItem[] = [
     id: 2,
     title: "Web Development",
     icons: [
+      "skills/javascript.svg",
+      "skills/typescript.svg",
       "skills/nextjs.svg",
-      "skills/nextjs.svg",
-      "skills/nextjs.svg",
-      "skills/nextjs.svg",
-      "skills/nextjs.svg",
+      "skills/react.svg",
+      "skills/css.svg",
     ],
     shortDescription: "I build visually stunning and user-friendly websites.",
     description:
@@ -34,11 +34,11 @@ const services: IServiceItem[] = [
     id: 3,
     title: "Backend Development",
     icons: [
+      "skills/express.svg",
+      "skills/aws.svg",
       "skills/nodejs.svg",
-      "skills/nodejs.svg",
-      "skills/nodejs.svg",
-      "skills/nodejs.svg",
-      "skills/nodejs.svg",
+      "skills/mongodb.svg",
+      "skills/mysql.svg",
     ],
     shortDescription: "I create robust and scalable backend infrastructures.",
     description:
