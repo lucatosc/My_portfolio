@@ -28,7 +28,7 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "Luca Toscano",
   description:
-    "Luca Toscano is a proficient Software Engineer and Full Stack Developer from India, skilled in front-end and back-end development using modern tech stacks.",
+    "Luca Toscano is a proficient AI and Frontend Developer, skilled in AI, front-end and back-end development using modern tech stacks.",
   robots: {
     index: true,
     follow: true,

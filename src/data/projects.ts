@@ -2,78 +2,44 @@ import { IProjectItem, ProjectType, RepoType } from "@/types";
 
 const projects: IProjectItem[] = [
   {
-    id: "social-media-app-flutter",
-    title: "Social Media App",
+    id: "fashion-ecommerce",
+    title: "Fashion Ecommerce",
     description:
-      "A social media mobile application developed using Flutter, GetX, Firebase Notifications and Hive.",
-    icon: "/skills/flutter.svg",
+      "Next.js 14 (SSR) Fullstack E-commerce App built with MongoDB, Typescript, Tailwind, DaisyUI, Shadcn/ui.",
+    icon: "/skills/nextjs.svg",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
-    githubUrl: "https://github.com/lucatosc/social-media-app-flutter",
-    // url: "https://www.nixlab.co.in/projects/com.nixlab.rippl",
-    url: "https://github.com/lucatosc/social-media-app-flutter/releases",
-    tags: ["Flutter", "Dart", "GetX", "Hive"],
-    sceenshots: ["/screenshots/rippl.png"],
+    githubUrl: "https://github.com/lucatosc/MyFashion-Corner-Next.js-Ecommerce",
+    url: "http://fashion-corner.vercel.app",
+    tags: ["React", "Next", "Typescript", "MongoDB", "Nodejs"],
+    sceenshots: ["/screens/project-1.png"],
   },
   {
-    id: "e-commerce-app-mern",
-    title: "E-commerce App",
+    id: "chat-gpt-ui",
+    title: "ChatGPT",
     description:
-      "An e-commerce web application developed using React.js, Material UI, Redux, and Stripe.",
+      "chat-GPT-ui is a chat-GPT ui Kit system.",
     icon: "/skills/react.svg",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
-    githubUrl: "https://github.com/lucatosc/ecommerce-web-reactjs",
-    url: "https://nixlab-shop.vercel.app",
-    tags: ["React.js", "Redux", "Material UI", "Stripe"],
+    githubUrl: "https://github.com/lucatosc/chat-gpt-ui",
+    url: "http://chat-gpt-ui-lake.vercel.app",
+    tags: ["React.js", "Redux", "Material UI", "ChatGPT"],
+    sceenshots: ["/screens/project-2.png"],
   },
   {
-    id: "video-calling-app-flutter",
-    title: "Video Calling App",
+    id: "image-genrator",
+    title: "IMAGE-GENERATOR",
     description:
-      "A video calling mobile application developed using Flutter and Agora SDK that allows users to call each other face to face.",
-    icon: "/skills/flutter.svg",
+      "This project is to generate image using openai and generative ai.",
+    icon: "/skills/jenkins.svg",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
-    githubUrl: "https://github.com/lucatosc/video-calling-app-flutter",
-    url: "https://github.com/lucatosc/video-calling-app-flutter/releases",
-    tags: ["Flutter", "Dart", "GetX", "Agora SDK"],
-  },
-  {
-    id: "social-media-api-nodejs",
-    title: "Social Media API",
-    description:
-      "An RESTful API developed using Node.js, Express.js and MongoDB to integrate backend and frontend with ease.",
-    icon: "/skills/nestjs.svg",
-    repoType: RepoType.Public,
-    projectType: ProjectType.Personal,
-    githubUrl: "https://github.com/lucatosc/social-media-api-nodejs",
-    tags: ["Node.js", "Express.js", "MongoDB", "WebSocket"],
-  },
-  {
-    id: "grocery-list-maker-app-flutter",
-    title: "Grocery List Maker App",
-    description:
-      "A grocery list maker mobile application developed using Flutter, BloC, Hive DB and PDF.",
-    icon: "/skills/flutter.svg",
-    repoType: RepoType.Public,
-    projectType: ProjectType.Personal,
-    githubUrl: "https://github.com/lucatosc/grocery-list-maker-flutter",
-    url:
-      "https://github.com/lucatosc/grocery-list-maker-flutter/releases/latest",
-    tags: ["Flutter", "Dart", "BLoC", "PDF", "Hive"],
-  },
-  {
-    id: "e-commerce-api-nodejs",
-    title: "E-commerce API",
-    description:
-      "An RESTful API developed using Node.js, Express.js, MongoDB, and Stripe to integrate e-commerce backend.",
-    icon: "/skills/nodejs.svg",
-    repoType: RepoType.Public,
-    projectType: ProjectType.Personal,
-    githubUrl: "https://github.com/lucatosc/ecommerce-api-nodejs",
-    tags: ["Node.js", "Express.js", "MongoDB", "Stripe"],
-  },
+    githubUrl: "https://github.com/lucatosc/AI-NEXTJS-IMAGE-GENERATOR",
+    url: "http://nextjs-image-psi.vercel.app",
+    tags: ["nextjs", "open-ai", "generative-ai"],
+    sceenshots: ["/screens/project-3.png"],
+  }
 ];
 
 export default projects;

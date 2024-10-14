@@ -29,7 +29,7 @@ const FloatingNavbar = ({
           duration: 0.2,
         }}
         className={cn(
-          "flex max-w-fit fixed top-4 inset-x-0 mx-auto border border-white/[0.25] rounded-full bg-[var(--dialogColor50)] backdrop-blur-sm shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] z-[5000] pr-2 pl-8 py-2 items-center justify-center space-x-4",
+          "flex max-w-fit fixed top-4 inset-x-0 mx-auto border border-white/[0.25] rounded-full bg-[var(--dialogColor50)] backdrop-blur-sm shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] z-[5000] pr-2 pl-8 py-2 items-center justify-between space-x-4",
           className
         )}
       >
@@ -53,17 +53,6 @@ const FloatingNavbar = ({
             </span>
           </Link>
         ))}
-        <Link
-          href="https://github.com/sponsors/lucatosc"
-          target="_blank"
-          className="border text-xs/none sm:text-sm/none font-medium relative border-white/[0.2] text-white hover:text-[var(--primaryColor)] px-4 py-2 rounded-full"
-        >
-          <span className="block sm:hidden">
-            <FontAwesomeIcon icon={faHandHoldingDollar} title="Support Me" />
-          </span>
-          <span className="hidden sm:block">Support Me</span>
-          <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-[var(--primaryColor)] to-transparent  h-px" />
-        </Link>
       </motion.div>
     </AnimatePresence>
   );

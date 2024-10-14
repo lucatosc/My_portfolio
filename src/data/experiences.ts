@@ -24,22 +24,22 @@ const experiences: IExperienceItem[] = [
       "Created and maintained interactive and user-friendly web applications using React.js and Next.js.",
     description:
       `Created and maintained interactive and user-friendly web applications using React.js and Next.js.
-- Improved website performance by optimizing code and implementing best practices.
-Worked with designers to translate UI/UX designs into functional and visually appealing web pages.
-- Integrated third-party APIs to extend application functionality and improve user engagement.
-Conducted user testing and collected feedback to continuously improve the UI and user experience.`,
+      - Improved website performance by optimizing code and implementing best practices.
+      Worked with designers to translate UI/UX designs into functional and visually appealing web pages.
+      - Integrated third-party APIs to extend application functionality and improve user engagement.
+      Conducted user testing and collected feedback to continuously improve the UI and user experience.`,
   },
   {
-    designation: "Freelancer",
+    designation: "Other Experience",
     company: "Freelancer",
-    startDate: "",
-    endDate: "",
+    startDate: "---",
+    endDate: "---",
     isCurrentJob: false,
     location: "Remote",
     shortDescription:
-      "",
+      "Freelancer",
     description:
-      "",
+      "Freelancer",
   },
 ];
 

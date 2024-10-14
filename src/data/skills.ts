@@ -14,11 +14,6 @@ const skills: ISkillListItem[] = [
         level: SkillLevel.Intermediate,
         icon: "/skills/typescript.svg",
       },
-      {
-        title: "python",
-        level: SkillLevel.Expert,
-        icon: "/skills/python.svg",
-      },
     ],
   },
   {
@@ -74,46 +69,6 @@ const skills: ISkillListItem[] = [
         level: SkillLevel.Intermediate,
         icon: "/skills/socket-io.png",
       }
-    ],
-  },
-  {
-    title: "Database Management",
-    items: [
-      {
-        title: "MongoDB",
-        level: SkillLevel.Intermediate,
-        icon: "/skills/mongodb.svg",
-      },
-      {
-        title: "PostgreSQL",
-        level: SkillLevel.Intermediate,
-        icon: "/skills/postgresql.svg",
-      },
-      {
-        title: "MySQL",
-        level: SkillLevel.Begginer,
-        icon: "/skills/mysql.svg",
-      },
-    ],
-  },
-  {
-    title: "AI Management",
-    items: [
-      {
-        title: "Generative AI",
-        level: SkillLevel.Intermediate,
-        icon: "",
-      },
-      {
-        title: "RAG AI",
-        level: SkillLevel.Intermediate,
-        icon: "",
-      },
-      {
-        title: "ChatGPT",
-        level: SkillLevel.Begginer,
-        icon: "",
-      },
     ],
   },
 ];
