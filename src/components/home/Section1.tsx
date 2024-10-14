@@ -32,10 +32,10 @@ const HomeSection1 = ({ id }: Readonly<{ id: string }>) => {
           Frontend | Javascript, React, Next, GEN AI, RAG AI, Open AI
           </p>
 
-          <div className="gap-4 mt-12 lg:mt-16 flex flex-col md:flex-row">
+          {/* <div className="gap-4 mt-12 lg:mt-16 flex flex-col md:flex-row">
             <TalkButton />
             <ResumeButton />
-          </div>
+          </div> */}
         </Column>
 
         <div className="mt-12 lg:mt-16 w-full flex flex-col items-center">

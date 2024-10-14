@@ -30,16 +30,16 @@ const experiences: IExperienceItem[] = [
       Conducted user testing and collected feedback to continuously improve the UI and user experience.`,
   },
   {
-    designation: "Other Experience",
-    company: "Freelancer",
+    designation: "Freelancer",
+    company: "",
     startDate: "---",
     endDate: "---",
     isCurrentJob: false,
     location: "Remote",
     shortDescription:
-      "Freelancer",
+      "Rich experience",
     description:
-      "Freelancer",
+      "Professional fullstack developer with experience developing Health Information System, E-commerce, promotion/campaign/event website, etc.",
   },
 ];
 
