@@ -29,7 +29,6 @@ const skills: ISkillListItem[] = [
         level: SkillLevel.Intermediate,
         icon: "/skills/python-5.svg",
       },
-
     ],
   },
   {
@@ -46,12 +45,12 @@ const skills: ISkillListItem[] = [
         icon: "/skills/react.svg",
       },
       {
-        title: "VUE",
+        title: "Vue.js",
         level: SkillLevel.Expert,
         icon: "/skills/vue-9.svg",
       },
       {
-        title: "ANGULARE",
+        title: "Angulare.js",
         level: SkillLevel.Intermediate,
         icon: "/skills/angular.svg",
       },
